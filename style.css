@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: linear-gradient(135deg,#687599,#444d63);
+}
+
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.box {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  overflow: hidden; /* prevents overflow */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f5f9;
+  margin: 8px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.summary {
+  margin-top: 15px;
+  background: #e2e8f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+canvas {
+  width: 100% !important;
+  height: 300px !important;
+}
